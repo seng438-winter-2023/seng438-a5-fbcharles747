@@ -15,6 +15,20 @@
 
 # Assessment Using Reliability Growth Testing
 
+<img src="./media/a5-model-comparison.PNG"/>
+
+the model which align better with our failure data have the highest Log-likelyhood and lowest AIC and BIC. According to the snapshot above, the two best-fit models are Negative Binomial Order 2 (NB2)and Discrete Weibull Order 2 (DW2) at the top of the model comparison list.
+
+<img src="./media/a5-data-laplace-test.PNG"/>
+
+- column B display all the data which pass laplace data test. The snapshot above also shows the formula for the lapace test.
+
+<img src="./media/a5-data-laplace-test-missing.PNG"/>
+
+- After apply the laplace formula, we can see entry 40,44,50,55,65 in the failure report 2 which these data entries do not pass the laplace test. Therefore, we are not using them.
+
+- after discarding some invalid data, we end up with MTTF 783.7167. Target failure rate is just 1 over 783.7167, so it is 0.001276
+
 # Assessment Using Reliability Demonstration Chart
 
 #
