@@ -25,7 +25,7 @@
 
 # How the team work/effort was divided and managed
 
-#
+To split the lab up, some members of our team worked on part 1 (those with windows computers) and the others worked on part 2 with the rdc and excel analysis. Overall, the team worked well together to complete the lab and the work was split evenly. We met in the lab to work and ask questions and communicated efficiently outside of the lab time to complete the final report.  
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
