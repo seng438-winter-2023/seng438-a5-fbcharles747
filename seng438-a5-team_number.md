@@ -6,7 +6,7 @@
 | --------------- | --- |
 | Student Names:  |     |
 | Chun-chun Huang |     |
-|                 |     |
+| Amneet Deol     |     |
 |                 |     |
 
 # Introduction
@@ -29,4 +29,7 @@
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
+We encountered a lot of problems with running the software. Though we had a general understanding of what needed to be done, it was unclear and a bit confusing when it came down to working on the lab. As well, some of the software did not work with mac os, so we had to work around that (splitting up the workload with the other parts of the lab).
+
 # Comments/feedback on the lab itself
+Overall, we thought the lab was interesting, but we had a lot of issues in the beginning with the setup. In the future, more detailed instructions would be appreciated to better understand how to use the software. It took us a while to figure out how to exactly how to run everything properly. 
