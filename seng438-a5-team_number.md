@@ -20,6 +20,10 @@ The second part of the report will discuss our findings from the Reliability Dem
 
 # Assessment Using Reliability Growth Testing
 
+Below is the prediction graph plotted using Littlewood Reliabilty which assumes that the system becomes more reliable as time goes on.
+![image](https://user-images.githubusercontent.com/72403820/230704551-6eb79f59-9b34-49e0-88e3-881f4c911789.png)
+
+
 <img src="./media/a5-model-comparison.PNG"/>
 
 the model which align better with our failure data have the highest Log-likelyhood and lowest AIC and BIC. According to the snapshot above, the two best-fit models are Negative Binomial Order 2 (NB2)and Discrete Weibull Order 2 (DW2) at the top of the model comparison list.
