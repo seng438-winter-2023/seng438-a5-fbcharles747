@@ -12,7 +12,8 @@
 # Introduction
 
 In this lab our group will be analyzing the results of various integration test datasets using reliability assessment tools like C-SFRAT, SRTAT, and an manual-RDC excel spreadsheet.
-Using these tools we were able to measure failure rate, mean-time-to-failure (MTTF), and the general reliability of the SUT.
+Using these tools we were able to measure failure rate, mean-time-to-failure (MTTF), and the general reliability of the SUT. The first part of this report states our findings in Reliability growth testing which was conducted using SRTAT on Failure Set 3.
+The second part of the report will discuss our findings from the Reliability Demonstration Chart (RDC) which we conducted using the provided excel sheet.
 
 #
 
