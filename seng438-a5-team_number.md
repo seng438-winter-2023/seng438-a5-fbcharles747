@@ -30,8 +30,17 @@ the model which align better with our failure data have the highest Log-likelyho
 - after discarding some invalid data, we end up with MTTF 783.7167. Target failure rate is just 1 over 783.7167, so it is 0.001276
 
 # Assessment Using Reliability Demonstration Chart
+ 
+We used the failure data from  Failure Report 3. Through trial and error we found the MTTF to be 500 (we understood this to be the minimum number of events for it to reach the acceptable region on the RDC graph. 
 
-#
+The Reliability Demonstration Chart (MTTF = 500):
+<img width="642" alt="Screen Shot 2023-04-07 at 7 14 15 PM" src="https://user-images.githubusercontent.com/101241102/230697002-3c6acb7a-074f-451e-9155-ed2126bf480b.png">
+
+The Reliability Demonstration Chart with Double MTTF (MTTF = 1000):
+<img width="642" alt="Screen Shot 2023-04-07 at 7 17 12 PM" src="https://user-images.githubusercontent.com/101241102/230697091-046beb06-5e70-4426-a279-1903f7fe6597.png">
+
+The Reliability Demonstration Chart with Halved MTTF (MTTF = 250):
+<img width="640" alt="Screen Shot 2023-04-07 at 7 18 05 PM" src="https://user-images.githubusercontent.com/101241102/230697125-9dd330e4-bc01-4c7b-9729-3c8b86c78b14.png">
 
 # Comparison of Results
 
