@@ -34,6 +34,15 @@ the model which align better with our failure data have the highest Log-likelyho
 
 - after discarding some invalid data, we end up with MTTF 783.7167. Target failure rate is just 1 over 783.7167, so it is 0.001276
 
+# Advantages and Disadvantages of Reliability Growth Analysis
+Advantages:
+- it shows clearly the reliability growth over time (important for analysis) + it gives detailed predictions
+- there is a variety in models to choose from (to best fit the data)
+
+Disadvantages:
+- a bit complicated + more time-intensive to use (lots of steps involved)
+- the predictions change based on the functions used to determine the target failure (it might be hard to choose)
+
 # Assessment Using Reliability Demonstration Chart
  
 We used the failure data from  Failure Report 3. Through trial and error we found the MTTF to be 500 (we understood this to be the minimum number of events for it to reach the acceptable region on the RDC graph). 
@@ -52,6 +61,17 @@ The Reliability Demonstration Chart with Halved MTTF (MTTF = 250):
 <img width="640" alt="Screen Shot 2023-04-07 at 7 18 05 PM" src="https://user-images.githubusercontent.com/101241102/230697125-9dd330e4-bc01-4c7b-9729-3c8b86c78b14.png">
 
 This graph shows that the data enters the acceptable region; however, the start of the data appears to be in the acceptable region as well, so perhaps continued testing would still need to be done.
+
+# Advantages and Disadvantages of RDC
+Advantages:
+- more user friendly and intuitive --> it was much more simple to analyze the MTTF and when it crossed into the acceptable range. 
+- requires less input data (just the failure data)
+- easier to predict trends
+- a quick way to visualize failure data
+
+Disadvantages:
+- the MTTF is at the user's discretion (may not be as precise)
+- there is not data for reliability (numerical), which is quite important 
 
 # Comparison of Results
 From reliability analysis where the Laplace formula was used to identify some data points that did not pass the statistical test. After removing those data points, the resulting MTTF was calculated to be 783.7167. Based on this value, we calculated the target failure as 1/MTTF, which is 0.001276. This means that the system should experience a failure rate of no more than 0.001276 failures per hour, on average, in order to meet the target reliability.
