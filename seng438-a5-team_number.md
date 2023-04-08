@@ -34,6 +34,15 @@ the model which align better with our failure data have the highest Log-likelyho
 
 - after discarding some invalid data, we end up with MTTF 783.7167. Target failure rate is just 1 over 783.7167, so it is 0.001276
 
+# Advantages and Disadvantages of Reliability Growth Analysis
+Advantages:
+- it shows clearly the reliability growth over time (important for analysis) + it gives detailed predictions
+- there is a variety in models to choose from (to best fit the data)
+
+Disadvantages:
+- a bit complicated + more time-intensive to use (lots of steps involved)
+- the predictions change based on the functions used to determine the target failure (it might be hard to choose)
+
 # Assessment Using Reliability Demonstration Chart
  
 We used the failure data from  Failure Report 3. Through trial and error we found the MTTF to be 500 (we understood this to be the minimum number of events for it to reach the acceptable region on the RDC graph). 
