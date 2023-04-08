@@ -2,14 +2,17 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:       |     |
+| Group \#: 25    |     |
 | --------------- | --- |
 | Student Names:  |     |
 | Chun-chun Huang |     |
 | Amneet Deol     |     |
-|                 |     |
+| Hiten Mahalwar  | 10187026 |
 
 # Introduction
+
+In this lab our group will be analyzing the results of various integration test datasets using reliability assessment tools like C-SFRAT, SRTAT, and an manual-RDC excel spreadsheet.
+Using these tools we were able to measure failure rate, mean-time-to-failure (MTTF), and the general reliability of the SUT.
 
 #
 
