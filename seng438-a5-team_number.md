@@ -54,18 +54,21 @@ The Reliability Demonstration Chart with Halved MTTF (MTTF = 250):
 This graph shows that the data enters the acceptable region; however, the start of the data appears to be in the acceptable region as well, so perhaps continued testing would still need to be done.
 
 # Comparison of Results
+From reliability analysis where the Laplace formula was used to identify some data points that did not pass the statistical test. After removing those data points, the resulting MTTF was calculated to be 783.7167. Based on this value, we calculated the target failure as 1/MTTF, which is 0.001276. This means that the system should experience a failure rate of no more than 0.001276 failures per hour, on average, in order to meet the target reliability.
+
+From reliability Demonstration Chart to see how reliable a system is based on data from Failure Report 3. To do this,we tested the system and record any failures that happen.We found that the average time before a failure happens is 500 MTTF. We also testes with a double MTTF of 1000 and a halved MTTF of 250.
 
 # Discussion on Similarity and Differences of the Two Techniques
 
-Reliability Growth Testing (RGT) and Reliability Demonstration Chart (RDC) are two methods used to ensure the reliability of a product. While both are designed to test the product's reliability, they differ in their objectives, testing approach, sample size, timing, and cost.
+Reliability Growth Testing or RGT and Reliability Demonstration Chart or RDC are two methods used to ensure the reliability of a product. While both are designed to test the product's reliability, they are different in their objectives, testing approach, sample size, timing, and cost.
 
 The objective of RGT is to identify and eliminate failure modes in the product during its development phase, whereas RDC aims to demonstrate that the product meets required reliability specifications before it's released to the customer. RGT involves continuous testing and analysis to find and fix problems, while RDC is a one-time test that checks if the product meets reliability standards.
 
 In terms of testing approach, RGT requires a larger sample size and continuous testing to detect and correct failures throughout the development phase, while RDC involves testing a fixed number of units for a set period of time to demonstrate the product's reliability.
 
-Timing is another significant difference between the two methods. RGT is conducted during the development phase of the product, while RDC is done after the product has been developed and is ready for release. The difference in timing allows RGT to identify and fix any problems early in the development process, while RDC checks if the product meets the required reliability standards before it's released to the customer.
+Timing is another significant difference these two methods. RGT is conducted during the development phase of the product, while RDC is done after the product has been developed and is ready for release. The difference in timing allows RGT to identify and fix any problems early in the development process, while RDC checks if the product meets the required reliability standards before it's released to the customer.
 
-Finally, cost is another factor that sets these two methods apart. RGT is more expensive than RDC because it requires continuous testing and analysis, while RDC is a one-time test and is therefore less expensive.
+Finally, cost sets these two methods apart. RGT is more expensive than RDC because it requires continuous testing and analysis, while RDC is a one-time test and is therefore less expensive.
 
 In summary, both RGT and RDC are important methods used to ensure product reliability. RGT helps to improve the product's reliability during its development phase by continuously testing and fixing any issues, while RDC checks if the product meets the required reliability standards before it's released to the customer.
 
