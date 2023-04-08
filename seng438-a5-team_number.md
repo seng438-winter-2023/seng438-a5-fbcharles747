@@ -39,8 +39,12 @@ The Reliability Demonstration Chart (MTTF = 500):
 The Reliability Demonstration Chart with Double MTTF (MTTF = 1000):
 <img width="642" alt="Screen Shot 2023-04-07 at 7 17 12 PM" src="https://user-images.githubusercontent.com/101241102/230697091-046beb06-5e70-4426-a279-1903f7fe6597.png">
 
+This graph shows that the data stays in the yellow region, so more testing would have to be done as it is inconclusive. 
+
 The Reliability Demonstration Chart with Halved MTTF (MTTF = 250):
 <img width="640" alt="Screen Shot 2023-04-07 at 7 18 05 PM" src="https://user-images.githubusercontent.com/101241102/230697125-9dd330e4-bc01-4c7b-9729-3c8b86c78b14.png">
+
+This graph shows that the data enters the acceptable region; however, the start of the data appears to be in the acceptable region as well, so perhaps continued testing would still need to be done.
 
 # Comparison of Results
 
