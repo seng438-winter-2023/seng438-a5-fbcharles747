@@ -8,6 +8,7 @@
 | Chun-chun Huang |     |
 | Amneet Deol     |     |
 | Hiten Mahalwar  | 10187026 |
+| Shreosi Debnath  30111867|
 
 # Introduction
 
@@ -55,6 +56,18 @@ This graph shows that the data enters the acceptable region; however, the start 
 # Comparison of Results
 
 # Discussion on Similarity and Differences of the Two Techniques
+
+Reliability Growth Testing (RGT) and Reliability Demonstration Chart (RDC) are two methods used to ensure the reliability of a product. While both are designed to test the product's reliability, they differ in their objectives, testing approach, sample size, timing, and cost.
+
+The objective of RGT is to identify and eliminate failure modes in the product during its development phase, whereas RDC aims to demonstrate that the product meets required reliability specifications before it's released to the customer. RGT involves continuous testing and analysis to find and fix problems, while RDC is a one-time test that checks if the product meets reliability standards.
+
+In terms of testing approach, RGT requires a larger sample size and continuous testing to detect and correct failures throughout the development phase, while RDC involves testing a fixed number of units for a set period of time to demonstrate the product's reliability.
+
+Timing is another significant difference between the two methods. RGT is conducted during the development phase of the product, while RDC is done after the product has been developed and is ready for release. The difference in timing allows RGT to identify and fix any problems early in the development process, while RDC checks if the product meets the required reliability standards before it's released to the customer.
+
+Finally, cost is another factor that sets these two methods apart. RGT is more expensive than RDC because it requires continuous testing and analysis, while RDC is a one-time test and is therefore less expensive.
+
+In summary, both RGT and RDC are important methods used to ensure product reliability. RGT helps to improve the product's reliability during its development phase by continuously testing and fixing any issues, while RDC checks if the product meets the required reliability standards before it's released to the customer.
 
 # How the team work/effort was divided and managed
 
