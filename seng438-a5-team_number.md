@@ -53,6 +53,17 @@ The Reliability Demonstration Chart with Halved MTTF (MTTF = 250):
 
 This graph shows that the data enters the acceptable region; however, the start of the data appears to be in the acceptable region as well, so perhaps continued testing would still need to be done.
 
+#Advantages and Disadvantages of RDC
+Advantages:
+- more user friendly and intuitive --> it was much more simple to analyze the MTTF and when it crossed into the acceptable range. 
+- requires less input data (just the failure data)
+- easier to predict trends
+- a quick way to visualize failure data
+
+Disadvantages:
+- the MTTF is at the user's discretion (may not be as precise)
+- there is not data for reliability (numerical), which is quite important 
+
 # Comparison of Results
 
 # Discussion on Similarity and Differences of the Two Techniques
